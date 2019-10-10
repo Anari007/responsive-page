@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Luckiest+Guy|Pacifico|Permanent+Marker&display=swap');
+*{
+  box-sizing:border-box;
+}
+body{
+  background:#667580;
+  
+}
+#header{
+  
+  
+}
+#header-container{
+  background:#667580;
+  width:100%;
+  display:flex;
+}
+.header-left{
+  width:20%;
+  
+}
+.header-main{
+  width:40%;
+  display:flex;
+  justify-content:center;
+  margin-top:70px;
+}
+.header-right{
+  width:30%;
+  display:flex;
+  justify-content:center;
+  
+}
+#header-img{
+  max-width:100%;
+  
+}
+ul li{
+  list-style:none;
+  margin-left:20px;
+  display:inline;
+  font-size:1.5em;
+  color:white;
+  background:linear-gradient(-45deg , blue,red);
+  padding:10px;
+  border-radius:5px;
+  text-align:center;
+  }
+a{
+  text-decoration:none;
+  color:white;
+}
+.quote q{
+  font-size:2em;
+  color:blue;
+  font-family:'luckiest guy',cursive;
+  
+  
+}
+
+.quote p{
+  color:red;
+  font-family:cursive;
+  font-size:1.5em;
+  text-align:center;
+}
+ul li:hover{
+  color:#000;
+  background:linear-gradient(45deg , blue,red);
+}
+
+  @media only screen and (max-width:950px){
+  
+  #header-container{
+    display:block;
+  }
+  #header-img,{
+    display:block;
+    width:100%;
+  }
+  ul li{
+    display:block;
+    margin:10px;
+  }
+  .header-left,.header-main{
+    display:block;
+    width:100%;
+  }
+  .header-right{
+    display:block;
+    width:100%;
+    
+    text-align:center;
+  }
+  #video{
+    width:80%;
+    height:300px;
+  }
+}
+
+#video{margin:100px auto;
+       
+  
+}
+#email{
+  width:250px;
+  height:40px;
+  padding:5px;
+  border:2px solid red;
+  margin-top:150px;
+}
+#submit{
+  
+  height:50px;
+  padding:10px;
+  background:linear-gradient(45deg , blue,red);
+  font-size:1.5em;
+  border-radius:5px;
+  box-shadow:5px 5px black;
+  margin-top:50px;
+}
+  
+#footer{
+  
+  font-family:pacifico,cursive;
+  color:blue;
+  font-size:2em;
+  text-align:center;
+  position:relative;
+  top:100px;
+} 
+#section{
+  position:relative
+  top:150px;
+  z-index:-1;
+}
+  
